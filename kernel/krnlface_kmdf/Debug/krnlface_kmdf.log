@@ -1,0 +1,2 @@
+﻿  Building 'krnlface_kmdf' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(458,5): error MSB8040: Bibliotheken mit Spectre-Entschärfungen sind für dieses Projekt erforderlich. Installieren Sie sie über den Visual Studio-Installer (Registerkarte "Einzelne Komponenten") für alle Toolsets und Architekturen, die verwendet werden. Weitere Informationen: https://aka.ms/Ofhn4c

@@ -1,0 +1,33 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  comp_render.hpp
+D:\work\cheats\xBase\xBase\comp_render.hpp(272,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(279,56): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(279,22): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(283,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT32', possible loss of data
+  core.cpp
+  globals.cpp
+  ImDui.cpp
+D:\work\cheats\xBase\xBase\ImDui.cpp(315,67): warning C4244: 'argument': conversion from 'float' to 'UINT32', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(315,64): warning C4244: 'argument': conversion from 'float' to 'UINT32', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(496,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT32', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(504,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT32', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(525,46): warning C4244: 'argument': conversion from 'float' to 'UINT', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(525,43): warning C4244: 'argument': conversion from 'float' to 'UINT', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(1181,37): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(1227,37): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(1698,41): warning C4267: 'argument': conversion from 'size_t' to 'ImUint', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(1854,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\work\cheats\xBase\xBase\ImDui.cpp(1862,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  srcns.cpp
+D:\work\cheats\xBase\xBase\comp_render.hpp(272,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(279,56): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(279,22): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+D:\work\cheats\xBase\xBase\comp_render.hpp(283,1): warning C4267: 'argument': conversion from 'size_t' to 'UINT32', possible loss of data
+  utils.cpp
+D:\work\cheats\xBase\xBase\utils.cpp(24,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  xBase.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 285 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  xBase.vcxproj -> D:\work\cheats\xBase\x64\Release\xBase.exe

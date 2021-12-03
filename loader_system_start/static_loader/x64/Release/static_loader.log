@@ -1,0 +1,72 @@
+﻿  antidbg.cpp
+  auth.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2468,23): warning C4244: "Argument": Konvertierung von "wchar_t" in "const _Elem", möglicher Datenverlust
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)" der Funktions-Vorlage.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)" der Funktions-Vorlage.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)" der Funktions-Vorlage.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)" der Funktions-Vorlage.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\work\loaders\static_loader_system_start\static_loader\auth.cpp(119): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" der Funktions-Vorlage.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\work\loaders\static_loader_system_start\static_loader\auth.cpp(119): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" der Funktions-Vorlage.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  crypt.cpp
+D:\work\loaders\static_loader_system_start\static_loader\crypt.cpp(22,40): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "unsigned long", Datenverlust möglich
+D:\work\loaders\static_loader_system_start\static_loader\crypt.cpp(23,42): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "unsigned long", Datenverlust möglich
+  mem_protection.cpp
+  service.cpp
+  static_loader.cpp
+  utils.cpp
+  Code wird generiert...
+MSVCRT.lib(initializers.obj) : warning LNK4098: Standardbibliothek "libcmt.lib" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+D:\work\cheats\valorant_private_esp_pom\xBase\magic.cpp(230): warning C4715: "magic::write_shell": Nicht alle Codepfade geben einen Wert zurück.
+  All 1568 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+pom_valo.lib(xBase.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(xBase.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(globals.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(globals.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(core.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(core.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(srcns.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(srcns.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(utils.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(utils.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(engine.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(engine.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(definitions.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(definitions.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(decryptor.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(decryptor.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(magic.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(magic.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(dx11_comp.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(dx11_comp.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui_widgets.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(imgui_widgets.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(imgui.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui_tables.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(imgui_tables.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui_impl_dx11.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(imgui_impl_dx11.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui_draw.obj) : warning LNK4099: PDB "" wurde nicht mit "pom_valo.lib(imgui_draw.obj)" oder an "" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+pom_valo.lib(imgui_impl_win32.obj) : warning LNK4099: PDB "valorant_private_pom.pdb" wurde nicht mit "pom_valo.lib(imgui_impl_win32.obj)" oder an "D:\work\loaders\static_loader_system_start\x64\Release\valorant_private_pom.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+  static_loader.vcxproj -> D:\work\loaders\static_loader_system_start\x64\Release\static_loader.exe

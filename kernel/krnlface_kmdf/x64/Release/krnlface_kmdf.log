@@ -1,0 +1,24 @@
+﻿  Building 'krnlface_kmdf' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  core.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  globals.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  krnlutils.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  logger.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  source.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  utils.cpp
+D:\work\kernel\krnlface_kmdf_lol\krnlface_kmdf\imports.h(60,3): warning C4273: "ZwAllocateVirtualMemory": Inkonsistente DLL-Bindung.
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\km\ntifs.h(28411,1): message : Siehe vorherige Definition von "ZwAllocateVirtualMemory"
+  Code wird generiert...
+  krnlface_kmdf.vcxproj -> D:\work\kernel\krnlface_kmdf_lol\x64\Release\krnlface_kmdf.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  

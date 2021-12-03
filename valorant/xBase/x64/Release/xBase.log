@@ -1,0 +1,71 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: Das Zwischenverzeichnis (x64\Release\) enthält freigegebene Dateien aus einem anderen Projekt (xBase_DayZ.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
+cl : befehlszeile warning D9025: "/sdl" wird durch "/GS-" überschrieben
+  core.cpp
+  decryptor.cpp
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(71,1): warning C4005: "LOBYTE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(206): message : Siehe vorherige Definition von "LOBYTE"
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(72,1): warning C4005: "LOWORD": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(204): message : Siehe vorherige Definition von "LOWORD"
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(73,1): warning C4005: "LODWORD": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\intsafe.h(8568): message : Siehe vorherige Definition von "LODWORD"
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(74,1): warning C4005: "HIBYTE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(207): message : Siehe vorherige Definition von "HIBYTE"
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(75,1): warning C4005: "HIWORD": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(205): message : Siehe vorherige Definition von "HIWORD"
+D:\work\cheats\valorant_private\xBase\idadefs.hpp(76,1): warning C4005: "HIDWORD": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\intsafe.h(8571): message : Siehe vorherige Definition von "HIDWORD"
+D:\work\cheats\valorant_private\xBase\decryptor.cpp(75,38): warning C4244: "Argument": Konvertierung von "uint64_t" in "const uint32_t", möglicher Datenverlust
+  definitions.cpp
+  dx11_comp.cpp
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(169,40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(170,40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(235,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(236,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(237,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(238,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(245,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(246,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(247,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(248,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(255,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(256,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(257,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(258,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(312,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(313,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(314,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\dx11_comp.cpp(315,11): warning C4244: "Initialisierung": Konvertierung von "uint32_t" in "float", möglicher Datenverlust
+  engine.cpp
+  globals.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  magic.cpp
+D:\work\cheats\valorant_private\xBase\magic.cpp(150,27): warning C4244: "Initialisierung": Konvertierung von "SIZE_T" in "uint32_t", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\magic.cpp(152,15): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\magic.cpp(198,12): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "DWORD" auf.
+D:\work\cheats\valorant_private\xBase\magic.cpp(198,12): warning C4313: "printf": "%p" in der Formatzeichenfolge steht mit dem Argument "1" vom Typ "DWORD" in Konflikt.
+D:\work\cheats\valorant_private\xBase\magic.cpp(279,19): warning C4244: "Initialisierung": Konvertierung von "uint64_t" in "double", möglicher Datenverlust
+  srcns.cpp
+D:\work\cheats\valorant_private\xBase\srcns.cpp(69,12): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(71,12): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uintptr_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(85,14): warning C4477: "printf": Die Formatzeichenfolge "%d" erfordert ein Argument vom Typ "int", das variadic-Argument "1" weist aber den Typ "double" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(86,14): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(87,14): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(88,14): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(89,14): warning C4477: "printf": Die Formatzeichenfolge "%p" erfordert ein Argument vom Typ "void *", das variadic-Argument "1" weist aber den Typ "uint64_t" auf.
+D:\work\cheats\valorant_private\xBase\srcns.cpp(298,56): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+D:\work\cheats\valorant_private\xBase\srcns.cpp(299,55): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+  utils.cpp
+D:\work\cheats\valorant_private\xBase\utils.cpp(24,74): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  xBase.cpp
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+D:\work\cheats\valorant_private\xBase\magic.cpp(329): warning C4715: "magic::write_shell": Nicht alle Codepfade geben einen Wert zurück.
+  All 1528 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  xBase.vcxproj -> D:\work\cheats\valorant_private\x64\Release\valorant_private_pom.exe

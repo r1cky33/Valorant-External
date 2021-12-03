@@ -1,0 +1,87 @@
+;
+; krnlface_kmdf.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=krnlface_kmdf.cat
+DriverVer= ; TODO: set DriverVer in stampinf property pages
+PnpLockDown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+krnlface_kmdf_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+krnlface_kmdf.sys  = 1,,
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with SourceDisksNames
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+%krnlface_kmdf.DeviceDesc%=krnlface_kmdf_Device, Root\krnlface_kmdf ; TODO: edit hw-id
+
+[krnlface_kmdf_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+krnlface_kmdf.sys
+
+;-------------- Service installation
+[krnlface_kmdf_Device.NT.Services]
+AddService = krnlface_kmdf,%SPSVCINST_ASSOCSERVICE%, krnlface_kmdf_Service_Inst
+
+; -------------- krnlface_kmdf driver install sections
+[krnlface_kmdf_Service_Inst]
+DisplayName    = %krnlface_kmdf.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\krnlface_kmdf.sys
+
+;
+;--- krnlface_kmdf_Device Coinstaller installation ------
+;
+
+[krnlface_kmdf_Device.NT.CoInstallers]
+AddReg=krnlface_kmdf_Device_CoInstaller_AddReg
+CopyFiles=krnlface_kmdf_Device_CoInstaller_CopyFiles
+
+[krnlface_kmdf_Device_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll,WdfCoInstaller"
+
+[krnlface_kmdf_Device_CoInstaller_CopyFiles]
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll
+
+[krnlface_kmdf_Device.NT.Wdf]
+KmdfService =  krnlface_kmdf, krnlface_kmdf_wdfsect
+[krnlface_kmdf_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "krnlface_kmdf Installation Disk"
+krnlface_kmdf.DeviceDesc = "krnlface_kmdf Device"
+krnlface_kmdf.SVCDESC = "krnlface_kmdf Service"
